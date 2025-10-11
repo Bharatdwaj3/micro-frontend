@@ -71,9 +71,9 @@
     }
       const usedRemotes = [
                 {
-                  entryGlobalName: "http://localhost:5174/remoteEntry.js",
+                  entryGlobalName: "remoteApp",
                   name: "remoteApp",
-                  type: "var",
+                  type: "module",
                   entry: "http://localhost:5174/remoteEntry.js",
                   shareScope: "default",
                 }
