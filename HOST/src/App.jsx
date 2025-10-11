@@ -1,7 +1,7 @@
 import './App.css'
 import React, {lazy, Suspense} from 'react'
 
-
+import 'http://localhost:5174/src/index.css'  
 const RemoteApp=lazy(()=>import('remoteApp/App'))
 function App() {
 
